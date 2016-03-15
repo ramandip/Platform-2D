@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: b253a588687bcf84b919b731cebc9cf8
+timeCreated: 1457537520
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: jump01
+    21300002: jump02
+    21300004: jump03
+    21300006: jump04
+    21300008: Spritesheet-300x187_4
+    21300010: Spritesheet-300x187_5
+    21300012: Spritesheet-300x187_6
+    21300014: Spritesheet-300x187_7
+    21300016: walk01
+    21300018: walk02
+    21300020: walk03
+    21300022: walk04
+    21300024: walk05
+    21300026: walk06
+    21300028: walk07
+    21300030: walk08
+    21300032: Spritesheet-300x187_16
+    21300034: Spritesheet-300x187_17
+    21300036: Spritesheet-300x187_18
+    21300038: Spritesheet-300x187_19
+    21300040: Spritesheet-300x187_20
+    21300042: Spritesheet-300x187_21
+    21300044: fly01
+    21300046: fly02
+    21300048: fly03
+    21300050: fly04
+    21300052: fly05
+    21300054: fly06
+    21300056: Spritesheet-300x187_29
+    21300058: Spritesheet-300x187_30
+    21300060: Spritesheet-300x187_31
+    21300062: Spritesheet-300x187_32
+    21300064: Spritesheet-300x187_33
+    21300066: Spritesheet-300x187_34
+    21300068: Spritesheet-300x187_22
+    21300070: Spritesheet-300x187_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: jump01
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 149
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: jump02
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 149
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: jump03
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 149
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: jump04
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 149
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 149
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 149
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 149
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 149
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 3, w: 0}
+      outline: []
+    - name: walk01
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 112
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walk02
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 112
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walk03
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walk04
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 112
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walk05
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 112
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walk06
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 112
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walk07
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 112
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: walk08
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 111
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 4, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 75
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 76
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 75
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 74
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 74
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 75
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fly01
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 37
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fly02
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 38
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fly03
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 37
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fly04
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 37
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fly05
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 37
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fly06
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 37
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_30
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_31
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_33
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_34
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_22
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 76
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spritesheet-300x187_35
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 72
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
