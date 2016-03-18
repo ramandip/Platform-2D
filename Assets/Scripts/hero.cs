@@ -20,10 +20,13 @@ public class VelocityRange
 public class hero : MonoBehaviour {
     //PUBLIC VARIABLES (Set from Unity editor)
     public VelocityRange velocityRange;
+    private int score = 100;
     public float force = 10f;
     public float jumpForce = 500f;
     public Camera camera;
     public Transform groundCheck;
+    public progressMap pm;
+    public coin coin;
 
     //PRIVATE VARIABLES
     private Rigidbody2D _rigidBody2D;
@@ -124,12 +127,27 @@ public class hero : MonoBehaviour {
         }
     }
 
-    //We will extend this function 
+    //increase score
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Death"))
+        
+        if (other.gameObject.CompareTag("coin"))
         {
-            Debug.Log("Dead");
+            
+            this.pm.totalScores += score;
+
+        }
+
+        if (other.gameObject.CompareTag("Finish"))
+        {
+
+            this.pm.finish();
+
+        }
+
+        if (other.gameObject.CompareTag("Death"))//or check player transform property on y-axis if it is less than suppose -6.3f(in my game) under fixed update, player loose on life
+        {
+            
             this._spawn();
         }
     }
@@ -137,8 +155,20 @@ public class hero : MonoBehaviour {
     //reset the position
     private void _spawn()
     {
-        this._transform.position = new Vector3(-125f, 125f, 0);
+        if (this.pm.livesValue == 0)
+        {
+            pm.endGame();
+        }
+        else
+        {
+            this._transform.position = new Vector3(-1.35f, 5.5f, 0);
+            pm.livesValue -= 1;
+            
+
+        }
+        
     }
 
+    
     
 }

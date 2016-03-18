@@ -40,7 +40,7 @@ public class progressMap : MonoBehaviour {
 
     }
     // PUBLIC INSTANCE VARIABLES
-    public int cloudNumber = 3;
+    
     public coin _coin;
     public Text livesLabel;
     public Text scoreLabel;
@@ -49,11 +49,11 @@ public class progressMap : MonoBehaviour {
     public Text HighScoreLabel;
     public Button RestartButton;
 
-    private void endGame()
+    public void endGame()
     {
         HighScoreLabel.text = "High Score: " + this.totalScores;
         GameOverLabel.gameObject.SetActive(true);
-        WinLabel.enabled = true;
+        WinLabel.enabled = false;
         HighScoreLabel.gameObject.SetActive(true);
         livesLabel.gameObject.SetActive(false);
         scoreLabel.gameObject.SetActive(false);
@@ -79,11 +79,24 @@ public class progressMap : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-	
+        livesLabel.text = "Lives: " + livesValue;
+        scoreLabel.text = "Score: " + ScoreValue;
 	}
     public void RestartButtonClick()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void finish()
+    {
+
+        HighScoreLabel.text = "High Score: " + this.totalScores;
+        GameOverLabel.gameObject.SetActive(false);
+        WinLabel.enabled = true;
+        HighScoreLabel.gameObject.SetActive(true);
+        livesLabel.gameObject.SetActive(false);
+        scoreLabel.gameObject.SetActive(false);
+        RestartButton.gameObject.SetActive(true);
     }
 }
 

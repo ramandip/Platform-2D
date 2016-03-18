@@ -3,7 +3,7 @@ using System.Collections;
 
 public class coin : MonoBehaviour {
     public int coins = 3;//number of coins
-    private int score=100;
+    
 
     //public instance progress map
     public progressMap pm;
@@ -18,11 +18,5 @@ public class coin : MonoBehaviour {
 	void Update () {
 	
 	}
-    public void OntriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            this.pm.totalScores += score;
-        }
-    }
+   
 }
